@@ -19,7 +19,7 @@
                 </div>
                 <ul class="navbar-items">
                     <li>
-                        <a href="#">HOME</a>
+                        <a href="index.html">HOME</a>
                     </li>
 
                     <li>
@@ -54,17 +54,17 @@
 
                 <!-- Texto explicativo para o usuário -->
                 <div class="campos">
-                    <p>Descreva as características e marque os opcionais que ele possui</p>
+                    <p>Descreva as características e marque os opções para que possamos te fornecer um serviço personalizado</p>
                 </div>
 
                 <!-- Campo: Título do anúncio -->
                 <div class="campos">
-                    <label for="titulo_anuncio">Título do anúncio *</label>
+                    <label for="titulo_anuncio">Título *</label>
                     <input 
                         type="text" 
                         id="titulo_anuncio" 
                         name="titulo_anuncio"
-                        placeholder="Um título para seu anúncio"
+                        placeholder="Um título para o perfil da sua costumização"
                         minlength="1" 
                         maxlength="30" 
                         required>
@@ -77,7 +77,7 @@
                         type="number" 
                         id="preco" 
                         name="preco" 
-                        placeholder="Defina o preço"
+                        placeholder="Defina o seu orçamento"
                         required>
                 </div>
 
@@ -87,46 +87,14 @@
                     <textarea 
                         name="descricao" 
                         id="descricao" 
-                        placeholder="Aqui você coloca os detalhes do veículo, por exemplo: se ele tem algum arranhão."
+                        placeholder="Aqui você coloca a descrição do serviço que você necessita"
                         required></textarea>
                 </div>
 
-                <!-- Campo: Marca do veículo -->
-                <div class="campos">
-                    <label for="marca">Marca *</label>
-                    <input 
-                        type="text" 
-                        id="marca" 
-                        name="marca" 
-                        placeholder="Digite a marca do veículo" 
-                        required>
-                </div>
-
-                <!-- Campo: Modelo do veículo -->
-                <div class="campos">
-                    <label for="modelo">Modelo *</label>
-                    <input 
-                        type="text" 
-                        id="modelo" 
-                        name="modelo" 
-                        placeholder="Digite o modelo do veículo" 
-                        required>
-                </div>
-
-                <!-- Campo: Quilometragem -->
-                <div class="campos">
-                    <label for="km">Quilometragem *</label>
-                    <input 
-                        type="text" 
-                        id="km" 
-                        name="km" 
-                        placeholder="Informe a quilometragem" 
-                        required>
-                </div>
-
+                
                 <!-- Campo: Data de compra -->
                 <div class="campos">
-                    <label for="data">Data de compra *</label>
+                    <label for="data">Data de pagamento mensal *</label>
                     <input 
                         type="date" 
                         id="data" 
@@ -140,79 +108,25 @@
                         <div id="tipo_cambio">
 
                             <!-- Rótulo do grupo -->
-                            <label>Tipo de câmbio *</label>
+                            <label>Forma de pagamento *</label>
 
                             <!-- Opção: Manual -->
                             <input type="radio" id="manual" name="cambio" value="manual">
-                            <label for="manual">Manual</label>
+                            <label for="manual">Débito</label>
 
                             <!-- Opção: Automático -->
                             <input type="radio" id="automatico" name="cambio" value="automatico">
-                            <label for="automatico">Automático</label>
+                            <label for="automatico">Crédito</label>
                         </div>
                     </div>
                 </div>
 
-                <!-- Grupo de campos: Opcionais do veículo -->
-                <div class="campos-2">
-                    <div class="campo-select">
 
-                        <!-- Título da seção de checkboxes -->
-                        <div id="title-checkbox">
-                            <label id="title-op">Opcionais *</label>
-                        </div>
-
-                        <!-- Lista de opcionais - Coluna 1 -->
-                        <div class="campo-check">
-                            <ul>
-                                <li>
-                                    <input type="checkbox" id="airbag" name="opcionais[]" value="airbag">
-                                    <label for="airbag">Airbag</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="alarme" name="opcionais[]" value="alarme">
-                                    <label for="alarme">Alarme</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="arCondicionado" name="opcionais[]" value="arCondicionado">
-                                    <label for="arCondicionado">Ar Condicionado</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="cameraRe" name="opcionais[]" value="cameraRe">
-                                    <label for="cameraRe">Câmera de Ré</label>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <!-- Lista de opcionais - Coluna 2 -->
-                        <div class="campo-check">
-                            <ul>
-                                <li>
-                                    <input type="checkbox" id="assistente" name="opcionais[]" value="assistente">
-                                    <label for="assistente">Assistência 24H</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="partidaKeyless" name="opcionais[]" value="partidaKeyless">
-                                    <label for="partidaKeyless">Partida Keyless</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="integracaoCelular" name="opcionais[]" value="integracaoCelular">
-                                    <label for="integracaoCelular">Integração com Celular</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="bancoCouro" name="opcionais[]" value="bancoCouro">
-                                    <label for="bancoCouro">Banco de Couro</label>
-                                </li>
-                            </ul>
-                        </div>
-
-                    </div>
-                </div>
-
+                        
                 <!-- Upload de imagens do veículo -->
                 <div class="campo-check">
                     <div id="title-file">
-                        <label id="title-op">Fotos do Carro *</label>
+                        <label id="title-op">Documentos queachar uteis *</label>
                     </div>
 
                     <!-- Campo para upload múltiplo de imagens -->

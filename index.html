@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <!--import dos icones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>my Host</title>
 </head>
 
@@ -13,13 +17,13 @@
         <div class="navbar-container">
             <nav>
                 <div class="img-container">
-                     <a href="#">
+                    <a href="#">
                         <img src="/img/hdchostlogo.png">
                     </a>
                 </div>
                 <ul class="navbar-items">
                     <li>
-                        <a href="#">HOME</a>
+                        <a href="index.html">HOME</a>
                     </li>
 
                     <li>
@@ -40,10 +44,118 @@
     <main>
         <div id="img-menu">
             <div id="container-text-menu">
-                <h2>my Host</h2>
-                <p> Os melhores serviços para projetos de todos os tamanhos</p>
+                <h2 id="mH">my Host</h2>
+                <p id="textomenu"> Os melhores serviços para projetos de todos os tamanhos</p>
             </div>
         </div>
     </main>
+    <section class="servicos">
+
+        <div class="campo-cards">
+            <div class="cards">
+                <i class=" fas fa-shield-alt"></i>
+                <h3>Segurança</h3>
+                <p>Implementamos rigorosos padrões de segurança para proteger dados, sistemas e operações. Utilizamos
+                    boas práticas, monitoramento contínuo e tecnologias atualizadas para garantir confidencialidade,
+                    integridade e disponibilidade das informações.</p>
+            </div>
+
+            <div class="cards">
+                <i class="fas fa-rocket"></i>
+                <h3>Segurança</h3>
+                <p>Implementamos rigorosos padrões de segurança para proteger dados, sistemas e operações. Utilizamos
+                    boas práticas, monitoramento contínuo e tecnologias atualizadas para garantir confidencialidade,
+                    integridade e disponibilidade das informações.</p>
+            </div>
+
+            <div class="cards">
+                <i class="fas fa-comments"></i>
+                <h3>Segurança</h3>
+                <p>Implementamos rigorosos padrões de segurança para proteger dados, sistemas e operações. Utilizamos
+                    boas práticas, monitoramento contínuo e tecnologias atualizadas para garantir confidencialidade,
+                    integridade e disponibilidade das informações.</p>
+            </div>
+        </div>
+
+        <div class="title-plano">
+            <h1> Planos e Preços</h1>
+            <h3>Selecione o plano que atende as suas necessidades</h3>
+        </div>
+        <!--cards planos preços-->
+        <div class="card-container">
+            <div class="card">
+                <ul>
+                    <div class="container-title">
+                        <li class="preco-table">R$15/mês</li>
+                    </div>
+                    <li class="title-table">BÁSICO</li>
+                    <div class="conteudo-table">
+                        <li>2GB de espaço</li>
+                        <li>1 Subdomínios</li>
+                        <li>25 contas se-mail</li>
+                        <li>C-panel</li>
+                        <li>Suporte 24/7</li>
+                    </div>
+                    <li class="saberMais">Saber mais</li>
+                </ul>
+
+                <ul>
+                    <div class="container-title">
+                        <li class="preco-table">R$30/mês</li>
+                    </div>
+                    <li class="title-table">DEDICADO</li>
+                    <div class="conteudo-table">
+                        <li>5GB de espaço</li>
+                        <li>10 Subdomínios</li>
+                        <li>50 contas e-mail</li>
+                        <li>C-panel</li>
+                        <li>Suporte 24/7</li>
+                    </div>
+                    <li class="saberMais">Saber mais</li>
+                </ul>
+
+                <ul>
+                    <div class="container-title">
+                        <li class="preco-table">R$50/mês</li>
+                    </div>
+                    <li class="title-table">DEDICADO PLUS</li>
+                    <div class="conteudo-table">
+                        <li>10GB de espaço</li>
+                        <li>10 Subdomínios</li>
+                        <li>200 contas e-mail</li>
+                        <li>C-panel</li>
+                        <li>Suporte 24/7</li>
+                    </div>
+                    <li class="saberMais">Saber mais</li>
+                </ul>
+
+                <ul>
+                    <div class="container-title">
+                        <li class="preco-table">R$100/mês</li>
+                    </div>
+                    <li class="title-table">CLOUD</li>
+                    <div class="conteudo-table">
+                        <li>20GB de espaço</li>
+                        <li>20 Subdomínios</li>
+                        <li>200 contas e-mail</li>
+                        <li>C-panel</li>
+                        <li>Suporte 24/7</li>
+                    </div>
+                    <li class="saberMais">Saber mais</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container-buscar">
+                <h1 class="texto-buscar">Qual domínio você quer para o seu site?</h1>
+                <p class="texto-buscar">Verifique se o domínio está disponível</p>
+            <div class="campo-input">
+                <input type="text" id="dominio" name="dominio" placeholder="Digite o domínio desejado">
+                <input type="submit" value="Procurar domínio">
+            </div>
+        </div>
+
+    </section>
+</body>
 
 </html>
